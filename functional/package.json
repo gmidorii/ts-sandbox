@@ -1,0 +1,13 @@
+{
+  "name": "functional",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "run": "ts-node ./src/main.ts"
+  },
+  "dependencies": {
+    "typescript": "^3.4.5"
+  }
+}
